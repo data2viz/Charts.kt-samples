@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace = "io.data2viz.charts.demo.android"
-    compileSdk = 33
+    compileSdk = 34
     defaultConfig {
         applicationId = "io.data2viz.charts.demo.android"
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
@@ -29,21 +29,20 @@ android {
             isMinifyEnabled = true
         }
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
+}
+
+kotlin {
+    jvmToolchain(8)
 }
 
 dependencies {
     implementation(project(":shared"))
+    implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.tooling)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.compose.material)
     implementation(libs.androidx.activity.compose)
+    androidTestImplementation(libs.espresso.core)
 }
