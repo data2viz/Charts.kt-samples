@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.android.library)
+    alias(libs.plugins.jetbrainsCompose)
 }
 
 kotlin {
@@ -31,6 +32,9 @@ kotlin {
                 api(libs.d2v.shape)
                 api(libs.d2v.viz)
                 api(libs.d2v.timer)
+                implementation(compose.runtime)
+                implementation(compose.foundation)
+                implementation(compose.material)
             }
         }
         val commonTest by getting {

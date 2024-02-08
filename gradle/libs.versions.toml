@@ -8,6 +8,8 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
+
 [versions]
 
 charts-kt = "1.0.12"
@@ -16,6 +18,8 @@ d2v = "0.10.6"
 # WARNING: Needs matching Compose compiler (version defined below).
 # See https://developer.android.com/jetpack/androidx/releases/compose-kotlin
 kotlin = "1.9.20"
+
+compose-plugin = "1.5.12"
 
 # WARNING: Needs to be updated manually, with Kotlin.
 # See https://developer.android.com/jetpack/androidx/releases/compose-kotlin

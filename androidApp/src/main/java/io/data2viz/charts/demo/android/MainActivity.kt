@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
+import io.data2viz.charts.demo.Viz
 import io.data2viz.charts.demo.bubbleChart
 
 class MainActivity : ComponentActivity() {

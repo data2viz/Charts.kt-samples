@@ -16,8 +16,8 @@ struct ContentView: View {
                     label: { Text("Line chart") }
                 )
                 NavigationLink(
-                    destination: {  },
-                    label: { Text("     ") }
+                    destination: { ComposeView() },
+                    label: { Text("Compose") }
                 )
             }.navigationTitle("Charts.kt samples")
             BubbleChart()

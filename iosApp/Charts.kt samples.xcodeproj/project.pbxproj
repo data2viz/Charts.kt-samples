@@ -15,6 +15,7 @@
 		8C51EC0A2A4B207E003BA8AC /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51EC092A4B207E003BA8AC /* ContentView2.swift */; };
 		8C51EC0C2A4B29FD003BA8AC /* BubbleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51EC0B2A4B29FD003BA8AC /* BubbleChart.swift */; };
 		8C51EC0E2A4B2A26003BA8AC /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51EC0D2A4B2A26003BA8AC /* LineChart.swift */; };
+		D98C9127B3613B480B471ECF /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F869A1173A0B2A486F89D /* ComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		8C51EC092A4B207E003BA8AC /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		8C51EC0B2A4B29FD003BA8AC /* BubbleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleChart.swift; sourceTree = "<group>"; };
 		8C51EC0D2A4B2A26003BA8AC /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		D98F869A1173A0B2A486F89D /* ComposeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				7555FF7D242A565900829871 /* iosApp */,
 				7555FF7C242A565900829871 /* Products */,
 				7555FFB0242A642200829871 /* Frameworks */,
+				D98FC627A6E798CCC2D6FB88 /* xcschemes */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +94,7 @@
 				8C51EC0D2A4B2A26003BA8AC /* LineChart.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
+				D98F869A1173A0B2A486F89D /* ComposeView.swift */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -100,6 +104,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98FC627A6E798CCC2D6FB88 /* xcschemes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = xcschemes;
+			path = "Charts.kt samples.xcodeproj/project.xcworkspace/xcuserdata/me.xcuserdatad/xcschemes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +212,7 @@
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				8C51EC0A2A4B207E003BA8AC /* ContentView2.swift in Sources */,
+				D98C9127B3613B480B471ECF /* ComposeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
