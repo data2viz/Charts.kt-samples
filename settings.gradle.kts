@@ -11,7 +11,6 @@ plugins {
     id("de.fayard.refreshVersions") version "0.60.3"
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.7.0"
 }
-
 dependencyResolutionManagement {
     @Suppress("UnstableApiUsage")
     repositories {
@@ -30,7 +29,7 @@ dependencyResolutionManagement {
                 }
             }
         } else {
-            maven(url = "https://maven.pkg.jetbrains.space/data2viz/p/maven/public") {
+            maven(url = "https://maven.pkg.jetbrains.space/data2viz/p/maven/dev") {
                 content { includeGroup("io.data2viz.charts") }
             }
         }
